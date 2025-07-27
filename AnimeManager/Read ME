@@ -1,0 +1,36 @@
+# 🌀 AnimeManager Console App (.NET 8 + EF Core)
+
+A simple console-based CRUD application built with **.NET 8**, **Entity Framework Core**, and **SQLite**. It manages a list of anime characters with details such as name, anime, power level, and famous quotes.
+
+---
+
+## 📦 Project Structure
+
+- `Models/AnimeCharacter.cs` – Entity model class.
+- `Data/AppdbContext.cs` – EF Core DB context for SQLite.
+- `Services/AnimeCharacterService.cs` – Handles CRUD logic.
+- `Program.cs` – Application entry point.
+- `animecharacters.db` – SQLite database (auto-created).
+
+---
+
+## 🚀 Features
+
+- ✅ Add anime characters
+- ✅ Retrieve all characters from database
+- ✅ Auto-initializes database using `EnsureCreated()`
+- ✅ Handles primary key auto-increment
+- ✅ Logs common errors like missing DB fields
+
+---
+
+## ⚙️ Technologies
+
+- [.NET 8](https://dotnet.microsoft.com/en-us/download)
+- [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)
+- SQLite (local database)
+
+---
+
+## 🧪 Sample Output
+
