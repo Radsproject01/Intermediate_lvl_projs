@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeManager", "AnimeManager.csproj", "{2DE74FE3-B58B-4822-85A4-515B12329C93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		AnimeCharacter.cs = AnimeCharacter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E4A5A649-8A37-494E-89A0-5F7F1C4D1DC8}"
+	ProjectSection(SolutionItems) = preProject
+		AnimeCharacterService.cs = AnimeCharacterService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{208111DE-AE80-42E4-8187-9369E4D2F12B}"
+	ProjectSection(SolutionItems) = preProject
+		AppdbContext.cs = AppdbContext.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DE74FE3-B58B-4822-85A4-515B12329C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE74FE3-B58B-4822-85A4-515B12329C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE74FE3-B58B-4822-85A4-515B12329C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE74FE3-B58B-4822-85A4-515B12329C93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {677E4EFB-BBBF-4C51-84BF-21287927256F}
+	EndGlobalSection
+EndGlobal
